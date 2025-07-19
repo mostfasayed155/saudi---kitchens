@@ -1,22 +1,18 @@
 
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
   <meta charset="UTF-8">
   <title>تسجيل دخول الإدارة</title>
-  <style>
-    body { background: #f0f0f0; font-family: Arial; text-align: center; padding: 100px; }
-    form { background: white; padding: 30px; display: inline-block; border-radius: 10px; box-shadow: 0 0 10px #ccc; }
-    input { display: block; margin: 10px auto; padding: 10px; width: 200px; }
-    button { padding: 10px 20px; background: #0077cc; color: white; border: none; border-radius: 5px; cursor: pointer; }
-  </style>
 </head>
 <body>
   <h2>تسجيل دخول الإدارة</h2>
-  <form>
-    <input type="text" placeholder="اسم المستخدم" required>
-    <input type="password" placeholder="كلمة المرور" required>
-    <button type="submit">دخول</button>
+  <form method="post">
+    <label>اسم المستخدم:</label><br>
+    <input type="text" name="username"><br>
+    <label>كلمة المرور:</label><br>
+    <input type="password" name="password"><br><br>
+    <input type="submit" value="تسجيل الدخول">
   </form>
 </body>
 </html>
