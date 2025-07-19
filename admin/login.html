@@ -4,14 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <title>تسجيل دخول الإدارة</title>
+  <script>
+    function handleLogin(event) {
+      event.preventDefault(); // منع الإرسال الفعلي
+
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      if (username === "mostfasayed155" && password === "1012002MmM") {
+        window.location.href = "dashboard.html"; // صفحة وهمية بعد تسجيل الدخول
+      } else {
+        alert("اسم المستخدم أو كلمة المرور غير صحيحة");
+      }
+    }
+  </script>
 </head>
 <body>
   <h2>تسجيل دخول الإدارة</h2>
-  <form method="post">
+  <form onsubmit="handleLogin(event)">
     <label>اسم المستخدم:</label><br>
-    <input type="text" name="username"><br>
+    <input type="text" id="username" name="username"><br>
     <label>كلمة المرور:</label><br>
-    <input type="password" name="password"><br><br>
+    <input type="password" id="password" name="password"><br><br>
     <input type="submit" value="تسجيل الدخول">
   </form>
 </body>
