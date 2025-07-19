@@ -1,0 +1,18 @@
+[17:54¡ 2025/7/19] Mustfa Sayed: }
+[17:56¡ 2025/7/19] Mustfa Sayed: <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>ÊÓÌíá ÇáÏÎæá</title>
+</head>
+<body>
+  <h2>áæÍÉ ÇáÅÏÇÑÉ</h2>
+  <form>
+    <label>ÇÓã ÇáãÓÊÎÏã:</label><br>
+    <input type="text"><br>
+    <label>ßáãÉ ÇáãÑæÑ:</label><br>
+    <input type="password"><br><br>
+    <button type="submit">ÏÎæá</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>ַבדׁßׂ ַב׃Úזֿם בד״ַָ־ ַבֳבזדהםזד</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>ַבדׁßׂ ַב׃Úזֿם בד״ַָ־ ַבֳבזדהםזד</h1>
+    <nav>
+      <a href="#kitchens">ד״ַָ־</a>
+      <a href="#windows">װַָָםß</a>
+      <a href="#doors">ֳָזַָ</a>
+      <a href="#colors">ַבֳבזַה</a>
+      <a href="#testimonials">ֱֲַׁ ַבÚדבֱַ</a>
+      <a href="#contact">ַÊױב ָהַ</a>
+      <a href="admin/login.html" style="float:left;">Ê׃ּםב ֿ־זב ַבֵַֹֿׁ</a>
+    </nav>
+  </header>
+  <section id="kitchens"><h2>ד״ַָ־ ֳבזדםÊַב</h2></section>
+  <section id="windows"><h2>װַָָםß</h2></section>
+  <section id="doors"><h2>ֳָזַָ</h2></section>
+  <section id="colors"><h2>ַבֳבזַה</h2></section>
+  <section id="testimonials"><h2>ֱֲַׁ ַבÚדבֱַ</h2></section>
+  <section id="contact"><h2>ַÊױב ָהַ</h2></section>
+  <footer>
+    &copy; 2025 ַבדׁßׂ ַב׃Úזֿם בד״ַָ־ ַבֳבזדהםזד
+  </footer>
+</body>
+</html>
